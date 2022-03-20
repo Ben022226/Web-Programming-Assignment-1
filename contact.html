@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header id="header">
+      <h1>My Contact</h1>
+    </header>
+
+    <br />
+
+    <nav>
+      <a class="nav_content" href="index.html">Welcome page</a> ||
+      <a class="nav_content" href="resume.html">Resume</a> ||
+      <a class="nav_content" href="projects.html">My projects</a> ||
+      <a class="nav_content" href="blog.html">My personal blog</a> ||
+      <a class="nav_content" href="contact.html">Contact</a>
+    </nav>
+
+    <br />
+
+    <main id="main_content">
+      <div id="contactme">
+        <h2 id="contact_method">Contact me via:</h2>
+        <h3 id="through_facebook">
+          Facebook:
+          <a
+            href="https://www.facebook.com/kitt261019/"
+            title="Click to go to my facebook"
+            >https://www.facebook.com/kit261019/</a
+          >
+        </h3>
+        <h3 id="through_email">
+          Personal email:
+          <a href="mailto:kemaodoanhso1@gmail.com" title="Click to send email"
+            >kemaodoanhso1@gmail.com</a
+          >
+          <br />
+          Student email:
+          <a href="mailto:s3926873@rmit.edu.vn" title="Click to send email"
+            >s3926873@rmit.edu.vn</a
+          >
+        </h3>
+
+        <br />
+
+        <h2 id="through_website">Or contact directly through this website:</h2>
+        <form action='.' method ="post" enctype="multipart/form-data">
+          <select name="Contact Type">
+              <option value="" selected>Please select your contact type:</option>
+              <option value="Contact1">Business</option>
+              <option value="Contact2">Personal</option>
+          </select>
+          
+          <br/><br/>
+       
+          <input type="text" id="Name" name="Name" maxlength="50">
+          <label for="Name">Please enter your full name</label>
+          
+          <br/><br/>
+      
+          <input type="email" id="Email" name="Email"
+              <label for="Email">Please enter your email</label>
+              
+              <br/><br/>
+      
+          <input type="number" id="PhoneNumber" name="PhoneNumber">
+              <label for="PhoneNumber">Please enter your phone number</label>
+              
+              <br/>
+      
+          <div>Please enter your preferred contact method:</div>
+          <input type="radio" id="PreferredContactMethod1" name="ContactMethod" value="Email"
+              <label for="ContactMethod">Email</label>
+              
+              <br/>
+
+          <input type="radio" id="PreferredContactMethod2" name="ContactMethod" value="Phone"
+              <label for="ContactMethod">Phone</label>
+              
+              <br/>
+
+          <div>Please attach any file you have:</div>
+          <input type="file" id="File" name="File" value="Attachment">
+          
+          <br/>
+      
+          <div>Do you have any message?:</div>
+            <textarea></textarea>
+              
+            <br/>
+      
+          <div>Do you want to remove all of your input?</div>
+            <input type="reset" name="no-needed" value="Erase all of your input">
+              
+            <br/><br/>
+              
+            <input type="submit" name="act" value="Send">
+          </form>
+      </div>
+    </main>
+
+    <br />
+
+    <footer>
+      <p id="copyright">Author: Truong Hoang Tuan Kiet</p>
+      <a href="#header" id="back_to_top">Back to the top</a>
+    </footer>
+  </body>
+</html>
